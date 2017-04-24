@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftNumberScrollAnimationView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftNumberScrollAnimationView.'
+  s.summary          = 'SwiftNumberScrollAnimationView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SwiftNumberScrollAnimationView.数字跳动动画
                        DESC
 
-  s.homepage         = 'https://github.com/278166530@qq.com/SwiftNumberScrollAnimationView'
+  s.homepage         = 'https://github.com/CoderOnePolo/SwiftNumberScrollAnimationView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '278166530@qq.com' => '278166530@qq.com' }
-  s.source           = { :git => 'https://github.com/278166530@qq.com/SwiftNumberScrollAnimationView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CoderOnePolo/SwiftNumberScrollAnimationView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

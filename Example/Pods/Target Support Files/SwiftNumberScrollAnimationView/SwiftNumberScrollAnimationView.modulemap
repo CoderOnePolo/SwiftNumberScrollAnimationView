@@ -1,0 +1,6 @@
+framework module SwiftNumberScrollAnimationView {
+  umbrella header "SwiftNumberScrollAnimationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SwiftNumberScrollAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SwiftNumberScrollAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftNumberScrollAnimationView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SwiftNumberScrollAnimationView: a80cea9cff08dbd53735824b06ccbabc9eb21c03
+
+PODFILE CHECKSUM: 19922ffbea29bd0a246d545dd27cda9d63a06f2d
+
+COCOAPODS: 1.1.1
