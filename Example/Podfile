@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftNumberScrollAnimationView_Example' do
+  pod 'SwiftNumberScrollAnimationView', :path => '../'
+
+  target 'SwiftNumberScrollAnimationView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
